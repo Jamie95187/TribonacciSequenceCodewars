@@ -15,6 +15,10 @@ describe 'tribonacci' do
       expect(tribonacci.present([0,0,1],2)).to eq [0,0]
     end
 
+    it('should return the correct four element array') do
+      expect(tribonacci.present([0,0,1],4)).to eq [0,0,1,1]
+    end
+
   end
 
 end
