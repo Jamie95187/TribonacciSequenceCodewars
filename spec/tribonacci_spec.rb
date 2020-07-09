@@ -22,6 +22,7 @@ describe 'tribonacci' do
 
     it('should return the correct five element array') do
       expect(tribonacci.present([0,0,1],5)).to eq [0,0,1,1,2]
+      expect(tribonacci.present([0,1,1],5)).to eq [0,1,1,2,4]
     end
 
   end
