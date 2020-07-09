@@ -5,8 +5,9 @@ describe 'tribonacci' do
   tribonacci = Tribonacci.new
 
   describe 'present' do
-    it('should return the correct array') do
+    it('should return the correct one element array') do
       expect(tribonacci.present([0,0,1],1)).to eq [0]
+      expect(tribonacci.present([1,1,1],1)).to eq [1]
     end
   end
 

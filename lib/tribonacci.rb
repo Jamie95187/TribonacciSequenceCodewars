@@ -1,7 +1,7 @@
 class Tribonacci
 
   def present(array, number)
-    [0]
+    [array[0]]
   end
 
 end
